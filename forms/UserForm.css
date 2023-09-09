@@ -1,0 +1,135 @@
+/* UserForm.css */
+.user-form {
+  max-width: 384px;
+  margin: 0 auto;
+  margin-top: 7%;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+  
+ 
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-box input, .form-box select {
+    font-size: 14px;
+    width: 100%;
+    padding: 16px 40px 16px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    appearance: none;
+    outline-style: solid;
+    outline-color:transparent;
+    outline-width: 1px;
+ 
+}
+.form-box input:focus, .form-box select:focus {
+  border:1px solid #2563eb;
+  stroke: none;
+  outline: none;
+  outline-style: solid;
+  outline-color: #007bff;
+  outline-width: 1px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} 
+.form-box button {
+  font-weight: 500;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+  .form-box label {
+    margin: 0px;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.mt-16{
+  margin-top: 16px;
+}
+.input-box {
+  position: relative;
+  margin-bottom: 16px;
+}
+.svg-icons {
+  right: 18px;
+  z-index: 9;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 22px;
+}
+.svg-icons svg {
+  color: #9ca3af;
+}
+.example_name {
+  margin-top: 16px;
+  display: flex;
+  padding: 16px;
+  background-color: rgb(240 249 255);
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  align-items: center;
+}
+.rounded-full-example {
+  border-radius: 50%;
+  padding: 8px;
+  background: #0284c7;
+  margin-right: 16px;
+  display: inline-grid;
+  place-items: center;
+}
+.rounded-full-example svg {
+  width: 20px;
+  height: 20px;
+  stroke: #fff;
+}
+.example_name p {
+  font-size: 14px;
+  color: rgb(3 105 161);
+  font-weight: 500;
+  line-height: 20px;
+}
+p.exp-text {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 16px;
+}
+.all_services {
+  padding-top: 48px;
+}
+.all_services h3 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+.all_services ul {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+}
+.all_services ul li {
+  padding: 8px 16px;
+}
+.all_services ul li a {
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.all_services ul li a img {
+  margin-right: 8px;
+  width: 20px;
+}
